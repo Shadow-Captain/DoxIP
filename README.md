@@ -1,6 +1,6 @@
 # DoxIP
-Herramienta para rastrear la IP de un dispositivo en Termux.
 
+Herramienta para rastrear la IP de un dispositivo en Termux.
 
 # INSTALACION
 
