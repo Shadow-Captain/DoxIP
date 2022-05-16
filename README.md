@@ -6,6 +6,8 @@ Herramienta para rastrear la IP de un dispositivo en Termux.
 
 # INSTALACION
 
+`pip install pyfiglet`
+
 `apt install python3 -y`
 
 `git clone https>//github.com/Shadow-Captain/DoxIP`
