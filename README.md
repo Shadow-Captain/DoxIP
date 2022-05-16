@@ -2,7 +2,7 @@
 
 Herramienta para rastrear la IP de un dispositivo en Termux.
 #  DEMO
-![alt text](https>//github.com/Shadow-Captain/DoxIP/DoxIP.png)
+![alt text](https://github.com/Shadow-Captain/DoxIP/blob/main/DoxIP.png)
 
 # INSTALACION
 
