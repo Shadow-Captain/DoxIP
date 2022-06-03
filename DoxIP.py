@@ -20,6 +20,7 @@ clear = '\033[0m'
 bold = '\033[01m'
 cyan = '\033[96m'
 
+os.system("clear")
 #banner of script
 print (red+"""
 
