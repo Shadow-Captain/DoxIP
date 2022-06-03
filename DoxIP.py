@@ -4,21 +4,13 @@ import sys
 from sys import argv
 import os
 
-#arguments and parser
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument ("-v", help= "dirección IP de destino/host", type=str, dest='target', required=True )
-
-args = parser.parse_args()
-
 #colours used
 red = '\033[31m'
 yellow = '\033[93m'
 lgreen = '\033[92m'
 clear = '\033[0m'
 bold = '\033[01m'
-cyan = '\033[96m'
+cyan = '\033[36m'
 
 os.system("clear")
 #banner of script
@@ -34,12 +26,12 @@ print (red+"""
 """+red)
 print (lgreen+bold+"         ╚» Sʜᴀᴅᴏᴡ Cᴀᴘᴛᴀɪɴ ☬ «╝ \n"+clear)
 
-ip = args.target
+ip = input(yellow+"Ingrese la dirección IP: ")
 
-api = "http://ip-api.com/json/"
+api_url = "http://ip-api.com/json/"
 
 try:
-        data = requests.get(api+ip).json()
+        data = requests.get(api_url+ip).json()
         sys.stdout.flush()
         a = lgreen+bold+"[$]"
         b = cyan+bold+"[$]"
