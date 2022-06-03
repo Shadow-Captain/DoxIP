@@ -35,6 +35,7 @@ try:
         sys.stdout.flush()
         a = lgreen+bold+"[$]"
         b = cyan+bold+"[$]"
+        print("")
         print (a, "[Víctima]:", data['query'])
         print(red+"<--------------->"+red)
         print (b, "[ISP]:", data['isp'])
